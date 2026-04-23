@@ -1,0 +1,5 @@
+{
+  "name": "fnichol-anvil-module",
+  "description": "Personal workstation tags, roles, and hooks",
+  "min_anvil_version": "0.1.0"
+}
