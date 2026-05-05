@@ -15,7 +15,7 @@
           "remmina",
           "torbrowser-launcher"
         ],
-        "aur": ["winbox"]
+        "aur": ["rustdesk-bin", "winbox"]
       }
     },
     "cachyos": {
@@ -25,7 +25,7 @@
           "remmina",
           "torbrowser-launcher"
         ],
-        "aur": ["winbox"]
+        "aur": ["rustdesk-bin", "winbox"]
       }
     },
     "debian": {
@@ -40,7 +40,7 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": ["tor-browser", "winbox"]
+        "homebrew_cask": ["rustdesk", "tor-browser", "winbox"]
       }
     },
     "openbsd": {
@@ -51,6 +51,13 @@
     "ubuntu": {
       "all": {
         "apt": []
+      }
+    }
+  },
+  "hooks": {
+    "configure": {
+      "all": {
+        "all": ["rustdesk"]
       }
     }
   }
