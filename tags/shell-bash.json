@@ -10,7 +10,7 @@
     },
     "alpine": {
       "all": {
-        "apk": ["bash", "bash-completion", "starship"]
+        "apk": ["bash", "bash-completion", "shadow", "starship"]
       }
     },
     "arch": {
@@ -40,12 +40,19 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": ["bash"]
+        "openbsd_pkg": ["bash", "bash-completion"]
       }
     },
     "ubuntu": {
       "all": {
         "apt": ["bash", "bash-completion", "starship"]
+      }
+    }
+  },
+  "hooks": {
+    "configure": {
+      "all": {
+        "all": ["bash-shell"]
       }
     }
   }
