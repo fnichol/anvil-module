@@ -99,7 +99,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": ["broot", "btop", "fzf", "htop", "pv", "screen"]
+        "openbsd_pkg": ["broot", "btop", "fzf", "htop", "pv", "screen"]
       }
     },
     "ubuntu": {

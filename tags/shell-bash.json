@@ -40,7 +40,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": ["bash"]
+        "openbsd_pkg": ["bash"]
       }
     },
     "ubuntu": {

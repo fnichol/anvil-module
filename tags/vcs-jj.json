@@ -38,7 +38,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": ["jujutsu"]
+        "openbsd_pkg": ["jujutsu"]
       }
     },
     "ubuntu": {

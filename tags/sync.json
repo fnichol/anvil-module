@@ -35,7 +35,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": ["syncthing"]
+        "openbsd_pkg": ["syncthing"]
       }
     },
     "ubuntu": {

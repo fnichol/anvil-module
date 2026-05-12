@@ -45,7 +45,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": []
+        "openbsd_pkg": []
       }
     },
     "ubuntu": {

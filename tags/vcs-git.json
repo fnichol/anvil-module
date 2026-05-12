@@ -40,7 +40,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": ["delta", "git"]
+        "openbsd_pkg": ["delta", "git"]
       }
     },
     "ubuntu": {

@@ -147,7 +147,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkd": [
+        "openbsd_pkg": [
           "neovim",
           {
             "#": ["Used by Lazy.nvim for plugins."],
