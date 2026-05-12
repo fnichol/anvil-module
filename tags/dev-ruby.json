@@ -38,13 +38,7 @@
     },
     "cachyos": {
       "all": {
-        "pacman": [
-          "base-devel",
-          "libffi",
-          "libyaml",
-          "openssl",
-          "rust"
-        ],
+        "pacman": ["base-devel", "libffi", "libyaml", "openssl", "rust"],
         "mise": ["ruby"]
       }
     },
@@ -71,7 +65,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": ["ruby"]
+        "openbsd_pkg": ["ruby--%3.4"]
       }
     },
     "ubuntu": {
