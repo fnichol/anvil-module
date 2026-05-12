@@ -114,7 +114,7 @@
           "gawk",
           "ggrep",
           "ripgrep",
-          "unzip",
+          "unzip--",
           "wget"
         ]
       }
