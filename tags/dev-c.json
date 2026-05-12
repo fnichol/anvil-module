@@ -33,7 +33,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": []
+        "openbsd_pkg": ["cmake", "gmake"]
       }
     },
     "ubuntu": {
