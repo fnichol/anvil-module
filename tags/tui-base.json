@@ -117,5 +117,12 @@
         ]
       }
     }
+  },
+  "hooks": {
+    "configure": {
+      "openbsd": {
+        "all": ["ghostty-terminfo"]
+      }
+    }
   }
 }
