@@ -23,6 +23,11 @@
         "mise": ["python"]
       }
     },
+    "fedora": {
+      "all": {
+        "mise": ["python"]
+      }
+    },
     "macos": {
       "all": {
         "mise": ["python"]

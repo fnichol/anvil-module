@@ -23,6 +23,11 @@
         "apt": []
       }
     },
+    "fedora": {
+      "all": {
+        "pacman": ["clang", "cmake", "lld", "make", "mold"]
+      }
+    },
     "freebsd": {
       "all": {
         "freebsd_pkg": []

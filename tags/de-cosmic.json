@@ -39,6 +39,9 @@
     "debian": {
       "all": {}
     },
+    "fedora": {
+      "all": {}
+    },
     "ubuntu": {
       "all": {}
     }

@@ -72,9 +72,25 @@
         ]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": [
+          "bat",
+          "curl",
+          "du-dust",
+          "eza",
+          "fd-find",
+          "gawk",
+          "grep",
+          "ripgrep",
+          "unzip",
+          "wget2-wget"
+        ]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": [
+        "freebsd_pkg": [
           "bat",
           "curl",
           "dust",

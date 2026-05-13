@@ -28,9 +28,14 @@
         "apt": ["git", "vim"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["git", "vim"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": ["git", "vim"]
+        "freebsd_pkg": ["git", "vim"]
       }
     },
     "macos": {

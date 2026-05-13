@@ -25,7 +25,12 @@
     },
     "freebsd": {
       "all": {
-        "apt": ["ffmpeg", "flac", "lame"]
+        "freebsd_pkg": ["ffmpeg", "flac", "lame"]
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": ["ffmpeg-free", "flac", "lame"]
       }
     },
     "macos": {

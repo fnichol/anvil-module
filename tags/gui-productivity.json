@@ -57,9 +57,14 @@
         "apt": []
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": []
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": []
+        "freebsd_pkg": []
       }
     },
     "macos": {

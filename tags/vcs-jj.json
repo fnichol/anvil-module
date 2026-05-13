@@ -26,9 +26,14 @@
         "homebrew": ["jj"]
       }
     },
+    "fedora": {
+      "all": {
+        "homebrew": ["jj"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": ["jujutsu"]
+        "freebsd_pkg": ["jujutsu"]
       }
     },
     "macos": {

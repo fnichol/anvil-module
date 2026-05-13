@@ -47,9 +47,14 @@
         "homebrew": ["tailscale"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["iperf3", "mosh", "netcat", "openssh", "rsync", "tailscale"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": [
+        "freebsd_pkg": [
           "iperf3",
           "mosh",
           "netcat",

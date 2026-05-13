@@ -27,6 +27,12 @@
         "mise": ["rust@stable"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["openssl-devel"],
+        "mise": ["rust@stable"]
+      }
+    },
     "macos": {
       "all": {
         "mise": ["rust@stable"]

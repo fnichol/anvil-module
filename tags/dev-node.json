@@ -24,6 +24,11 @@
         "mise": ["node"]
       }
     },
+    "fedora": {
+      "all": {
+        "mise": ["node"]
+      }
+    },
     "macos": {
       "all": {
         "mise": ["node"]

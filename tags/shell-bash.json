@@ -28,9 +28,15 @@
         "apt": ["bash", "bash-completion", "starship"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["bash", "bash-completion"],
+        "homebrew": ["starship"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": ["bash", "starship"]
+        "freebsd_pkg": ["bash", "starship"]
       }
     },
     "macos": {

@@ -23,6 +23,11 @@
         "mise": ["deno"]
       }
     },
+    "fedora": {
+      "all": {
+        "mise": ["deno"]
+      }
+    },
     "macos": {
       "all": {
         "mise": ["deno"]

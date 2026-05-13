@@ -23,6 +23,11 @@
         "apt": []
       }
     },
+    "fedora": {
+      "all": {
+        "pacman": ["podman", "podman-compose", "podman-docker"]
+      }
+    },
     "macos": {
       "all": {
         "homebrew": []

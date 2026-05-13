@@ -23,6 +23,11 @@
         "mise": ["go"]
       }
     },
+    "fedora": {
+      "all": {
+        "mise": ["go"]
+      }
+    },
     "macos": {
       "all": {
         "mise": ["go"]

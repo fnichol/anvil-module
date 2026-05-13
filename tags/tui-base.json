@@ -68,9 +68,15 @@
         ]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["btop", "fzf", "htop", "pv", "screen", "tmux", "zoxide"],
+        "homebrew": ["bottom", "broot"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": [
+        "freebsd_pkg": [
           "bottom",
           "broot",
           "btop",

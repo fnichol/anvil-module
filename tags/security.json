@@ -23,9 +23,14 @@
         "apt": ["b3sum"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": ["b3sum"]
+      }
+    },
     "freebsd": {
       "all": {
-        "freebsd_pkd": ["b3sum"]
+        "freebsd_pkg": ["b3sum"]
       }
     },
     "macos": {

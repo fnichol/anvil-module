@@ -25,7 +25,12 @@
     },
     "freebsd": {
       "all": {
-        "freebsd_pkd": []
+        "freebsd_pkg": []
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": ["syncthing"]
       }
     },
     "macos": {

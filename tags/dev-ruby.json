@@ -57,6 +57,27 @@
         "mise": ["ruby"]
       }
     },
+    "fedora": {
+      "all": {
+        "dnf": [
+          "autoconf",
+          "bzip2",
+          "gcc",
+          "gdbm-devel",
+          "libffi-devel",
+          "libyaml-devel",
+          "make",
+          "ncurses-devel",
+          "openssl-devel",
+          "patch",
+          "perl-FindBin",
+          "readline-devel",
+          "rust",
+          "zlib-ng-compat-devel"
+        ],
+        "mise": ["ruby"]
+      }
+    },
     "macos": {
       "all": {
         "homebrew": ["autoconf", "gmp", "libyaml", "openssl@3", "readline"],
