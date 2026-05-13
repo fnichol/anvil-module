@@ -18,7 +18,7 @@ configure_hook_tailscale() {
       bu="/home/linuxbrew/.linuxbrew/opt/tailscale/homebrew.tailscale.service"
 
       # Check if Tailscale is installed via Homebrew
-      if [ -f "$unit" ]; then
+      if [ -f "$bu" ]; then
         svc="$(basename "$bu")"
         unit="$bu"
       fi
