@@ -12,11 +12,20 @@ configure_hook_tailscale() {
         return 0
       fi
 
-      local svc="tailscaled.service"
+      local unit svc bu
+      svc="tailscaled.service"
+      unit="$svc"
+      bu="/home/linuxbrew/.linuxbrew/opt/tailscale/homebrew.tailscale.service"
+
+      # Check if Tailscale is installed via Homebrew
+      if [ -f "$unit" ]; then
+        svc="$(basename "$bu")"
+        unit="$bu"
+      fi
 
       if ! systemctl is-enabled "$svc" >/dev/null; then
         info "Enabling and starting '$svc' service"
-        indent as_root systemctl enable --now "$svc"
+        indent as_root systemctl enable --now "$unit"
       fi
       ;;
   esac
