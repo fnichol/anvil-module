@@ -36,7 +36,7 @@ configure_hook_bash_shell() {
 
       if [ "$current_shell" != "$bash_shell" ]; then
         info "Setting default shell for '$USER' to '$bash_shell'"
-        chpass -s "$bash_shell"
+        as_root chpass -s "$bash_shell" "$USER"
       fi
       ;;
   esac
