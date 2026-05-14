@@ -43,7 +43,9 @@ configure_hook_virtualization() {
     macos)
       if ! pgrep oahd >/dev/null; then
         info "Installing Rosetta 2 on Apple silicon"
-        /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+        indent as_root /usr/sbin/softwareupdate \
+          --install-rosetta \
+          --agree-to-license
       fi
       ;;
   esac
