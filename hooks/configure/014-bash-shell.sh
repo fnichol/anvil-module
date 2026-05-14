@@ -5,6 +5,15 @@
 . "$ANVIL_HOOK_SUPPORT"
 
 configure_hook_bash_shell() {
+  local bash_profile="$HOME/.bash_profile"
+  if [ ! -e "$bash_profile" ]; then
+    info "Generating stub $bash_profile"
+    cat <<-'EOF' >"$bash_profile"
+	# Generated via Anvil
+	[[ -f ~/.bashrc ]] && . ~/.bashrc
+	EOF
+  fi
+
   case "$ANVIL_OS" in
     alpine | openbsd)
       local current_shell
