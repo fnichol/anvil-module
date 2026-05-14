@@ -45,7 +45,12 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": ["rustdesk", "tor-browser", "winbox"]
+        "homebrew_cask": [
+          "private-internet-access",
+          "rustdesk",
+          "tor-browser",
+          "winbox"
+        ]
       }
     },
     "openbsd": {
