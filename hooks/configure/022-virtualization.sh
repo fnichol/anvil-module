@@ -40,5 +40,11 @@ configure_hook_virtualization() {
         sudo ufw route allow from 192.168.122.0/24
       fi
       ;;
+    macos)
+      if ! pgrep oahd >/dev/null; then
+        info "Installing Rosetta 2 on Apple silicon"
+        /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+      fi
+      ;;
   esac
 }

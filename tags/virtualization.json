@@ -56,6 +56,9 @@
       },
       "cachyos": {
         "all": ["virtualization"]
+      },
+      "macos": {
+        "aarch64": ["virtualization"]
       }
     }
   }
