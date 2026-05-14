@@ -45,8 +45,7 @@
     },
     "macos": {
       "all": {
-        "homebrew": [],
-        "homebrew_cask": ["discord", "slack", "zoom"]
+        "homebrew_cask": ["discord", "google-chrome", "slack", "zoom"]
       }
     },
     "openbsd": {

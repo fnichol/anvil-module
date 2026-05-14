@@ -35,7 +35,7 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": []
+        "homebrew_cask": ["cirruslabs/cli/tart"]
       }
     },
     "openbsd": {

@@ -5,7 +5,8 @@
   "packages": {
     "macos": {
       "all": {
-        "homebrew_cask": []
+        "homeshick": ["fnichol/dotmac"],
+        "homebrew_cask": ["nikitabobko/tap/aerospace"]
       }
     }
   },

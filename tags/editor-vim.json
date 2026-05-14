@@ -40,7 +40,7 @@
     },
     "macos": {
       "all": {
-        "homebrew": ["vim"]
+        "homebrew": ["git", "vim"]
       }
     },
     "openbsd": {

@@ -34,7 +34,9 @@
       }
     },
     "macos": {
-      "all": {}
+      "all": {
+        "homebrew": ["cmake", "lld", "make", "mold"]
+      }
     },
     "openbsd": {
       "all": {

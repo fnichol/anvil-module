@@ -30,7 +30,7 @@
     },
     "macos": {
       "all": {
-        "homebrew": []
+        "homebrew_cask": ["podman-desktop"]
       }
     },
     "ubuntu": {
