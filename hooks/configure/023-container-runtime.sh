@@ -6,7 +6,7 @@
 
 configure_hook_container_runtime() {
   case "$ANVIL_OS" in
-    arch | cachyos)
+    arch | cachyos | fedora)
       local conf="/etc/containers/nodocker"
 
       if [ ! -f "$conf" ]; then
