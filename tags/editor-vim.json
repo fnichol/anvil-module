@@ -30,7 +30,7 @@
     },
     "fedora": {
       "all": {
-        "dnf": ["git", "vim"]
+        "dnf": ["git", "vim-enhanced"]
       }
     },
     "freebsd": {
