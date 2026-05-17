@@ -126,7 +126,7 @@
   },
   "hooks": {
     "configure": {
-      "openbsd": {
+      "all": {
         "all": ["ghostty-terminfo"]
       }
     }
