@@ -25,7 +25,7 @@
     },
     "fedora": {
       "all": {
-        "pacman": ["podman", "podman-compose", "podman-docker"]
+        "dnf": ["podman", "podman-compose", "podman-docker"]
       }
     },
     "macos": {
