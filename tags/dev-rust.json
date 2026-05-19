@@ -35,7 +35,7 @@
     },
     "macos": {
       "all": {
-        "homebrew": ["pkgconfig"],
+        "homebrew": ["pkgconf"],
         "mise": ["rust@stable"]
       }
     },
