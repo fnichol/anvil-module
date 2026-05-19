@@ -66,7 +66,8 @@
     },
     "macos": {
       "all": {
-        "homebrew": ["iperf3", "mosh", "netcat", "rsync", "websocat"]
+        "homebrew": ["iperf3", "mosh", "netcat", "rsync", "websocat"],
+        "homebrew_cask": ["tailscale-app"]
       }
     },
     "openbsd": {
