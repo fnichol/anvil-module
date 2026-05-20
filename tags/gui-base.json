@@ -57,5 +57,12 @@
         "apt": []
       }
     }
+  },
+  "hooks": {
+    "configure": {
+      "macos": {
+        "all": ["macos-defaults"]
+      }
+    }
   }
 }
