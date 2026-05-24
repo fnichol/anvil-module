@@ -35,7 +35,7 @@ configure_hook_virtualization() {
         as_root usermod -aG "$group" "$USER"
       fi
 
-      if ! as_root ufw status | grep -q '^Anywhere\s*ALLOW FWD\s*192\.168\.122\.0/24$'; then
+      if ! as_root ufw status | grep -q '^Anywhere\s*ALLOW FWD\s*192\.168\.122\.0/24\s*$'; then
         info "Enabling the entire VM network to have unfettered transit"
         sudo ufw route allow from 192.168.122.0/24
       fi
