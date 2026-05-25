@@ -45,7 +45,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": ["git", "vim--no_x11"]
+        "openbsd_pkg": ["git", "vim"]
       }
     },
     "ubuntu": {
