@@ -7,6 +7,7 @@
     "dev-go",
     "dev-ruby",
     "dev-rust",
+    "dev-shell",
     "editor-neovim",
     "editor-vim",
     "llm-claude",

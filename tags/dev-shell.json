@@ -1,0 +1,47 @@
+{
+  "name": "dev-shell",
+  "description": "Shell programming language development",
+  "depends_on": [],
+  "packages": {
+    "alpine": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "arch": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "cachyos": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "debian": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "fedora": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "macos": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    },
+    "openbsd": {
+      "all": {
+        "openbsd_pkg": ["shellcheck", "shfmt"]
+      }
+    },
+    "ubuntu": {
+      "all": {
+        "mise": ["shellcheck", "shfmt"]
+      }
+    }
+  }
+}
