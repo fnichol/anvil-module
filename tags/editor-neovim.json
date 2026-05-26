@@ -195,7 +195,7 @@
           },
           {
             "#": ["Used by tree-sitter-manager plugin on NeoVim 0.12+"],
-            "name": "tree-sitter"
+            "name": "tree-sitter-cli"
           }
         ]
       }
