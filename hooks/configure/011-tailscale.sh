@@ -28,5 +28,14 @@ configure_hook_tailscale() {
         indent as_root systemctl enable --now "$unit"
       fi
       ;;
+    openbsd)
+      local svc=tailscaled
+
+      if ! rcctl get "$svc" status; then
+        info "Enabling and starting '$svc' service"
+        indent as_root rcctl enable "$svc"
+        indent as_root rcctl start "$svc"
+      fi
+      ;;
   esac
 }

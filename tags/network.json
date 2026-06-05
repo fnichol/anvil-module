@@ -72,7 +72,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": ["iperf3", "mosh", "rsync--"]
+        "openbsd_pkg": ["iperf3", "mosh", "rsync--", "tailscale"]
       }
     },
     "ubuntu": {
