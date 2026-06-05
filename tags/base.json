@@ -129,6 +129,7 @@
           "fd",
           "gawk",
           "ggrep",
+          "gtar--",
           "ripgrep",
           "unzip--",
           "wget"
