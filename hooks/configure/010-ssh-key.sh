@@ -21,7 +21,7 @@ configure_hook_ssh_key() {
       -N '' \
       -C "${USER}@${ANVIL_HOSTNAME}-$(date -u +%FT%TZ)" \
       -t ed25519 \
-      -a 100 \
+      -a 128 \
       -f "$key"
 
     chmod 0700 "$(dirname "$key")"
