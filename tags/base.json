@@ -153,5 +153,12 @@
         ]
       }
     }
+  },
+  "hooks": {
+    "configure": {
+      "openbsd": {
+        "all": ["openbsd-locale"]
+      }
+    }
   }
 }
