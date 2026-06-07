@@ -46,7 +46,7 @@
     },
     "openbsd": {
       "all": {
-        "openbsd_pkg": ["bash", "bash-completion"]
+        "openbsd_pkg": ["bash", "bash-completion", "starship"]
       }
     },
     "ubuntu": {
