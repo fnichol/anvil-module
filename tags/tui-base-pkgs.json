@@ -1,0 +1,129 @@
+{
+  "name": "tui-base-pkgs",
+  "description": "Terminal utilities and tools system packages",
+  "depends_on": [],
+  "packages": {
+    "alpine": {
+      "all": {
+        "apk": [
+          "bottom",
+          "broot",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "arch": {
+      "all": {
+        "pacman": [
+          "bottom",
+          "broot",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "cachyos": {
+      "all": {
+        "pacman": [
+          "bottom",
+          "broot",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "debian": {
+      "all": {
+        "apt": [
+          "broot",
+          "btm",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": ["btop", "fzf", "htop", "pv", "screen", "tmux", "zoxide"],
+        "homebrew": ["bottom", "broot"]
+      }
+    },
+    "freebsd": {
+      "all": {
+        "freebsd_pkg": [
+          "bottom",
+          "broot",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "macos": {
+      "all": {
+        "homebrew": [
+          "bottom",
+          "broot",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    },
+    "openbsd": {
+      "all": {
+        "openbsd_pkg": ["broot", "btop", "fzf", "htop", "pv", "screen--"]
+      }
+    },
+    "ubuntu": {
+      "all": {
+        "apt": [
+          "broot",
+          "btm",
+          "btop",
+          "fzf",
+          "htop",
+          "pv",
+          "screen",
+          "tmux",
+          "zoxide"
+        ]
+      }
+    }
+  },
+  "hooks": {
+    "configure": {
+      "all": {
+        "all": ["ghostty-terminfo"]
+      }
+    }
+  }
+}

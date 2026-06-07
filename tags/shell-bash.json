@@ -1,57 +1,11 @@
 {
   "name": "shell-bash",
   "description": "Bash shell support",
-  "depends_on": [],
+  "depends_on": ["shell-bash-pkgs"],
   "packages": {
     "all": {
       "all": {
         "bashrc": ["fnichol/bashrc"]
-      }
-    },
-    "alpine": {
-      "all": {
-        "apk": ["bash", "bash-completion", "shadow", "starship"]
-      }
-    },
-    "arch": {
-      "all": {
-        "pacman": ["bash", "starship"]
-      }
-    },
-    "cachyos": {
-      "all": {
-        "pacman": ["bash", "starship"]
-      }
-    },
-    "debian": {
-      "all": {
-        "apt": ["bash", "bash-completion", "starship"]
-      }
-    },
-    "fedora": {
-      "all": {
-        "dnf": ["bash", "bash-completion"],
-        "homebrew": ["starship"]
-      }
-    },
-    "freebsd": {
-      "all": {
-        "freebsd_pkg": ["bash", "starship"]
-      }
-    },
-    "macos": {
-      "all": {
-        "homebrew": ["bash", "bash-completion", "starship"]
-      }
-    },
-    "openbsd": {
-      "all": {
-        "openbsd_pkg": ["bash", "bash-completion", "starship"]
-      }
-    },
-    "ubuntu": {
-      "all": {
-        "apt": ["bash", "bash-completion", "starship"]
       }
     }
   },

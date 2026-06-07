@@ -1,0 +1,53 @@
+{
+  "name": "shell-bash-pkgs",
+  "description": "Bash shell system packages",
+  "depends_on": [],
+  "packages": {
+    "alpine": {
+      "all": {
+        "apk": ["bash", "bash-completion", "shadow", "starship"]
+      }
+    },
+    "arch": {
+      "all": {
+        "pacman": ["bash", "starship"]
+      }
+    },
+    "cachyos": {
+      "all": {
+        "pacman": ["bash", "starship"]
+      }
+    },
+    "debian": {
+      "all": {
+        "apt": ["bash", "bash-completion", "starship"]
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": ["bash", "bash-completion"],
+        "homebrew": ["starship"]
+      }
+    },
+    "freebsd": {
+      "all": {
+        "freebsd_pkg": ["bash", "starship"]
+      }
+    },
+    "macos": {
+      "all": {
+        "homebrew": ["bash", "bash-completion", "starship"]
+      }
+    },
+    "openbsd": {
+      "all": {
+        "openbsd_pkg": ["bash", "bash-completion", "starship"]
+      }
+    },
+    "ubuntu": {
+      "all": {
+        "apt": ["bash", "bash-completion", "starship"]
+      }
+    }
+  }
+}
