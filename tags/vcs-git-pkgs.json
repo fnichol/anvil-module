@@ -1,0 +1,52 @@
+{
+  "name": "vcs-git-pkgs",
+  "description": "Git software and configuration system packages",
+  "depends_on": [],
+  "packages": {
+    "alpine": {
+      "all": {
+        "apk": ["delta", "git"]
+      }
+    },
+    "arch": {
+      "all": {
+        "pacman": ["git", "git-delta"]
+      }
+    },
+    "cachyos": {
+      "all": {
+        "pacman": ["git", "git-delta"]
+      }
+    },
+    "debian": {
+      "all": {
+        "apt": ["git", "git-delta"]
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": ["git", "git-delta"]
+      }
+    },
+    "freebsd": {
+      "all": {
+        "freebsd_pkg": ["git", "git-delta"]
+      }
+    },
+    "macos": {
+      "all": {
+        "homebrew": ["git", "git-delta"]
+      }
+    },
+    "openbsd": {
+      "all": {
+        "openbsd_pkg": ["delta", "git"]
+      }
+    },
+    "ubuntu": {
+      "all": {
+        "apt": ["git", "git-delta"]
+      }
+    }
+  }
+}
