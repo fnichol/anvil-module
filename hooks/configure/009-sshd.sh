@@ -4,7 +4,7 @@
 # shellcheck source=/dev/null
 . "$ANVIL_HOOK_SUPPORT"
 
-configure_hook_rustdesk() {
+configure_hook_sshd() {
   case "$ANVIL_OS" in
     arch | cachyos)
       if ! check_cmd systemctl; then
