@@ -100,7 +100,7 @@
   "hooks": {
     "configure": {
       "all": {
-        "all": ["tailscale"]
+        "all": ["sshd", "tailscale"]
       }
     }
   }
