@@ -7,7 +7,8 @@
 configure_hook_ghostty_terminfo() {
   case "$ANVIL_OS" in
     arch | cachyos | fedora | openbsd)
-      if [ ! -f /usr/share/terminfo/g/ghostty ]; then
+      if [ ! -f /usr/share/terminfo/g/ghostty ] \
+        || [ ! -f /usr/share/terminfo/x/xterm-ghostty ]; then
         info "Adding Ghostty to terminfo"
         _ghostty_terminfo | as_root tic -x - 2>/dev/null
       fi
