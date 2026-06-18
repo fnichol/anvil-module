@@ -15,7 +15,7 @@
     },
     "arch": {
       "all": {
-        "pacman": ["chromium", "discord"],
+        "pacman": ["chromium", "discord", "signal-desktop"],
         "aur": ["slack-desktop", "zoom"]
       }
     },
@@ -24,7 +24,7 @@
     },
     "cachyos": {
       "all": {
-        "pacman": ["chromium", "discord"],
+        "pacman": ["chromium", "discord", "signal-desktop"],
         "aur": ["slack-desktop", "zoom"]
       }
     },
@@ -45,7 +45,7 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": ["discord", "google-chrome", "slack", "zoom"]
+        "homebrew_cask": ["discord", "google-chrome", "signal", "slack", "zoom"]
       }
     },
     "openbsd": {
