@@ -6,7 +6,7 @@
     "macos": {
       "all": {
         "homeshick": ["fnichol/dotmac"],
-        "homebrew_cask": ["nikitabobko/tap/aerospace"]
+        "homebrew_cask": ["keepingyouawake", "nikitabobko/tap/aerospace"]
       }
     }
   },
