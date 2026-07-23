@@ -6,12 +6,12 @@
     "de-aerospace",
     "de-cosmic",
     "gui-audio",
+    "gui-communication",
     "gui-multimedia",
     "gui-network",
     "gui-productivity",
     "gui-streamdeck",
     "gui-sync",
-    "gui-work",
     "printing",
     "text-to-speech"
   ]

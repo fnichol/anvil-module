@@ -1,6 +1,6 @@
 {
-  "name": "gui-work",
-  "description": "Work/business graphical applications and utilities",
+  "name": "gui-communication",
+  "description": "Communication graphical applications and utilities",
   "depends_on": [],
   "packages": {
     "all": {
@@ -15,7 +15,7 @@
     },
     "arch": {
       "all": {
-        "aur": ["slack-desktop", "zoom"]
+        "pacman": ["chromium", "discord", "signal-desktop"]
       }
     },
     "bazzite": {
@@ -23,7 +23,7 @@
     },
     "cachyos": {
       "all": {
-        "aur": ["slack-desktop", "zoom"]
+        "pacman": ["chromium", "discord", "signal-desktop"]
       }
     },
     "debian": {
@@ -43,7 +43,7 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": ["slack", "zoom"]
+        "homebrew_cask": ["discord", "google-chrome", "signal"]
       }
     },
     "openbsd": {
