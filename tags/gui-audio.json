@@ -15,7 +15,7 @@
     },
     "macos": {
       "all": {
-        "homebrew_cask": ["rode-virtual-channels"]
+        "homebrew_cask": ["rode-virtual-channels", "soundsource"]
       }
     }
   },
