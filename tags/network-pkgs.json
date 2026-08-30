@@ -5,7 +5,15 @@
   "packages": {
     "alpine": {
       "all": {
-        "apk": ["iperf3", "mosh", "openssh", "rsync", "tailscale", "websocat"]
+        "apk": [
+          "iperf3",
+          "mosh",
+          "nethogs",
+          "openssh",
+          "rsync",
+          "tailscale",
+          "websocat"
+        ]
       }
     },
     "arch": {
@@ -13,6 +21,7 @@
         "pacman": [
           "iperf3",
           "mosh",
+          "nethogs",
           "openbsd-netcat",
           "openssh",
           "rsync",
@@ -26,6 +35,7 @@
         "pacman": [
           "iperf3",
           "mosh",
+          "nethogs",
           "openbsd-netcat",
           "openssh",
           "rsync",
@@ -40,6 +50,7 @@
           "iperf3",
           "mosh",
           "netcat-openbsd",
+          "nethogs",
           "openssh-client",
           "openssh-server",
           "rsync"
@@ -49,7 +60,15 @@
     },
     "fedora": {
       "all": {
-        "dnf": ["iperf3", "mosh", "netcat", "openssh", "rsync", "tailscale"]
+        "dnf": [
+          "iperf3",
+          "mosh",
+          "netcat",
+          "nethogs",
+          "openssh",
+          "rsync",
+          "tailscale"
+        ]
       }
     },
     "freebsd": {
@@ -58,6 +77,7 @@
           "iperf3",
           "mosh",
           "netcat",
+          "nethogs",
           "rsync",
           "tailscale",
           "websocat"
@@ -66,7 +86,14 @@
     },
     "macos": {
       "all": {
-        "homebrew": ["iperf3", "mosh", "netcat", "rsync", "websocat"],
+        "homebrew": [
+          "iperf3",
+          "mosh",
+          "netcat",
+          "nethogs",
+          "rsync",
+          "websocat"
+        ],
         "homebrew_cask": ["tailscale-app"]
       }
     },
@@ -89,6 +116,7 @@
           "iperf3",
           "mosh",
           "netcat-openbsd",
+          "nethogs",
           "openssh-client",
           "openssh-server",
           "rsync"
