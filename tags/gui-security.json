@@ -1,0 +1,52 @@
+{
+  "name": "gui-security",
+  "description": "Graphical security utilities and tools",
+  "depends_on": [],
+  "packages": {
+    "alpine": {
+      "all": {
+        "apk": []
+      }
+    },
+    "arch": {
+      "all": {
+        "pacman": []
+      }
+    },
+    "cachyos": {
+      "all": {
+        "pacman": []
+      }
+    },
+    "debian": {
+      "all": {
+        "apt": []
+      }
+    },
+    "fedora": {
+      "all": {
+        "dnf": []
+      }
+    },
+    "freebsd": {
+      "all": {
+        "freebsd_pkg": []
+      }
+    },
+    "macos": {
+      "all": {
+        "homebrew_cask": ["secretive"]
+      }
+    },
+    "openbsd": {
+      "all": {
+        "openbsd_pkg": []
+      }
+    },
+    "ubuntu": {
+      "all": {
+        "apt": []
+      }
+    }
+  }
+}
