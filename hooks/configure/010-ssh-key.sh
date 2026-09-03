@@ -12,7 +12,11 @@ configure_hook_ssh_key() {
 
   local key="$HOME/.ssh/id_ed25519"
 
-  if [ ! -f "$key" ]; then
+  # Note: The guard here is on presence of *public* key as private key may be
+  # in a secure enclave and generated out-of-band, etc. A public key that
+  # exists here signals that a key has been generated for this system and
+  # another key should *not* be generated.
+  if [ ! -f "$key.pub" ]; then
     info "Generating SSH key for '$USER' on $ANVIL_HOSTNAME"
 
     mkdir -p "$(dirname "$key")"
