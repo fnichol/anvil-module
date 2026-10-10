@@ -5,12 +5,12 @@
   "packages": {
     "arch": {
       "all": {
-        "aur": ["streamcontroller"]
+        "pacman": ["opendeck"]
       }
     },
     "cachyos": {
       "all": {
-        "aur": ["streamcontroller"]
+        "pacman": ["opendeck"]
       }
     },
     "macos": {
