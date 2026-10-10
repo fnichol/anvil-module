@@ -44,7 +44,7 @@
     "macos": {
       "all": {
         "homebrew": [],
-        "homebrew_cask": ["alacritty", "firefox", "ghostty"]
+        "homebrew_cask": ["firefox", "ghostty"]
       }
     },
     "openbsd": {
