@@ -176,7 +176,7 @@
               "Used by plugins, usually Mason tooling to provide LSPs, ",
               "linters, formatters, etc."
             ],
-            "name": "python3"
+            "name": "python@3.15"
           },
           {
             "#": ["Used by tree-sitter-manager plugin on NeoVim 0.12+"],
